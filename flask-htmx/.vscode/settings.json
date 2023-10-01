@@ -1,0 +1,20 @@
+{
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": false,
+    "editor.insertSpaces": true,
+    "editor.rulers": [
+      {
+        "column": 72
+      },
+      {
+        "column": 79
+      }
+    ],
+  },
+}

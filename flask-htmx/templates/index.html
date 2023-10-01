@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://unpkg.com/htmx.org@1.9.5"></script>
+</head>
+
+<body>
+  <p>
+    Hello, World!
+  </p>
+  <p>
+    <button hx-get="/clicked" hx-swap="outerHTML">
+      Click Me
+    </button>
+  </p>
+  <p>
+    <button hx-get="/clicked" hx-swap="innerHTML" hx-target="#target">
+      Click Me
+    </button>
+  </p>
+  <p id="target">
+    This is clicked target...
+  </p>
+</body>
+
+</html>
